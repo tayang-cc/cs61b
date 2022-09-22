@@ -114,6 +114,7 @@ public class IntList {
         ptr.rest = new IntList(cur.first, null);
         cur.rest = B;
         cur = cur.rest;
+        ptr = ptr.rest;
         while(cur!=null){
             ptr.rest = new IntList(cur.first, null);
             cur=cur.rest;
