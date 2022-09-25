@@ -51,14 +51,6 @@ public class Planet {
         return forceDy;
     }
 
-    public boolean equals(Planet obj) {
-        boolean flag = true;
-        if (xxPos != obj.xxPos || yyPos != obj.yyPos || xxVel != obj.xxVel || yyVel != obj.yyVel || mass != obj.mass || imgFileName != obj.imgFileName) {
-            flag = false;
-        }
-        return flag;
-    }
-
     public double calcNetForceExertedByX(Planet[] obj) {
         double forceDx = 0;
         for (int i = 0; i < obj.length; i++) {

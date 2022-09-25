@@ -44,7 +44,7 @@ public  class NBody {
         StdDraw.clear();
 
         double time = 0;
-        for(;time < T; T += dt){
+        for(;time < T; time += dt){
             double [] xForce = new  double[Planets.length];
             double [] yForce = new  double[Planets.length];
             for(int i=0; i< Planets.length; i++){
