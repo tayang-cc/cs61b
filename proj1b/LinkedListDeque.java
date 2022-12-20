@@ -100,7 +100,6 @@ public class LinkedListDeque<T> implements Deque<T>{
         }
     }
 
-    @Override
     public T getRecursive(int index) {
         if (index >= size) {
             return null;

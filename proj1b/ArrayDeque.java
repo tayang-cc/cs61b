@@ -1,6 +1,6 @@
 /** second part of project1A.
  * deque implemented by array
- * @author Yang
+ * @author tayang
  */
 public class ArrayDeque<T> implements Deque<T> {
 
